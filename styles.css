@@ -1,6 +1,6 @@
 body{
 	font-size: 20px;
-	font-family: 'Inter', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #fff;
 	background: #000;
 	margin: 0;
@@ -9,7 +9,13 @@ body{
 h1 {
 	font-weight:200;
 	font-size: 300%;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: -0.12rem;
+	line-height: 3rem;
+	max-width: 80%;
 }
+
 
 #container, #results-container {
 	max-width: 800px;
@@ -24,11 +30,18 @@ h1 {
 	color: #000;
 	font-size: 70%;
 	padding: 0;
+	width: 100%;
+	/* position: absolute; */
 }
 
 #result-info{
 	padding: 1rem;
 }
+
+#results-container #description {
+	 font-size: 120%;
+}
+
 
 #fixed-bar{
 	position: fixed;
@@ -42,9 +55,10 @@ h1 {
   border-bottom: #ffffff17 1px solid;
 }
 
-.question{
-	font-weight: 200;
+.question {
+	font-weight: 500;
 	font-size: 160%;
+	line-height: 1;
 }
 
 .question-number {
@@ -74,6 +88,18 @@ input[type="radio"]:checked+label {
 	color: #fff;
 }
 
+.git img {
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.git{
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 20rem;
+}
+
 
 #submit{
 	font-family: sans-serif;
@@ -84,8 +110,10 @@ input[type="radio"]:checked+label {
 	padding: 20px;
 	cursor: pointer;
 	width: 100%;
-	position: initial;
 	font-weight: 200;
+	max-width: 800px;
+	margin: auto;
+	display: block;
 }
 
 #submit:hover{
