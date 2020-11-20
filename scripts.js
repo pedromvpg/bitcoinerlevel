@@ -74,6 +74,7 @@ function showResults(){
 	}
 
 	descriptionContainer.innerHTML = `<div id="result-info"><div id="points">${points} points | ${numCorrect} out of ${questions.length}</div><b>${levels[levelPosition].name}</b> ${levels[levelPosition].description}</div>`;
+	descriptionContainer.innerHTML = `<div id="result-info"><div id="points">${points} points | ${numCorrect} out of ${questions.length}</div><div id="description"><b>${levels[levelPosition].name}</b> ${levels[levelPosition].description}</div></div>`;
 }
 
 const quizContainer = document.getElementById('quiz');
