@@ -57,7 +57,21 @@ const questions = [
   },
 
   {
-    question: "9. Replaced a transaction by fee",
+    question: "Replaced a transaction by fee",
+    answers: { a: "Yes", b: "No"},
+    correctAnswer: "a",
+    points: 10
+  },
+
+  {
+    question: "Calculate fees manually",
+    answers: { a: "Yes", b: "No"},
+    correctAnswer: "a",
+    points: 10
+  },
+
+  {
+    question: "Analyze mempool statistics",
     answers: { a: "Yes", b: "No"},
     correctAnswer: "a",
     points: 10
