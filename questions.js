@@ -30,7 +30,7 @@ const questions = [
 
   {
     question: "Secured private keys",
-    answers: { a: "No one but be know what I own", b: "I have nothing to hide"},
+    answers: { a: "No one but me know what I own", b: "I have nothing to hide"},
     correctAnswer: "a",
     points: 10
   },
