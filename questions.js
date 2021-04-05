@@ -9,7 +9,7 @@ const questions = [
 
   {
     question: "Own bitcoin but never got KYCed",
-    answers: { a: "No one but be know what I own", b: "I have nothing to hide"},
+    answers: { a: "No one but me knows what I own", b: "I have nothing to hide"},
     correctAnswer: "a",
     points: 10
   },
